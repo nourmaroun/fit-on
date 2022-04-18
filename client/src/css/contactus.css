@@ -1,0 +1,11 @@
+.contact-bg {
+  background-image: url('../images/contactus2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vw;
+  width: 100%;
+}
+Form {
+  margin-top: 50px;
+  margin-left: 3vw;
+}

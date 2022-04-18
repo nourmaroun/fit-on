@@ -1,0 +1,19 @@
+.workoutplaylists-bg {
+  background-image: url('../images/workoutplaylists.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vw;
+  width: 100%;
+}
+.workoutplaylists-title {
+  font-size: 3vw;
+  padding: 10vw 40vw;
+  color: black;
+}
+.workoutplaylists-head {
+  font-weight: 600;
+  font-size: 37px;
+  color: #333;
+  text-align: center;
+  margin-top: 30px;
+}

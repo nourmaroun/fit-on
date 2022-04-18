@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.title {
+  width: 600px;
+  font-size: 100px;
+  font-weight: bold;
+  color: aliceblue;
+  padding-left: 8vw;
+  padding-top: 3vw;
+  text-align: center;
+  line-height: 1;
+}
+@media screen and (max-width: 728px) {
+  .title {
+    font-size: 35px;
+    line-height: 1.3;
+    width: fit-content;
+  }
+}
+.home-container-1 {
+  background-image: url('../images/home-1.jpg');
+  background-size: cover;
+  height: 800px;
+  display: flex;
+}
+@media screen and (max-width: 728px) {
+  .home-container-1 {
+    flex-direction: column;
+  }
+}
+.c2d1 {
+  background-color: white;
+  height: 250px;
+}
+.c2d2 {
+  background-color: #D3D3D3;
+  height: 200px;
+}
+.thepain {
+  font-size: 25px;
+  color: aliceblue;
+  padding-top: 5vw;
+  padding-left: 100px;
+  width: 800px;
+  text-align: center;
+}
+@media screen and (max-width: 728px) {
+  .thepain {
+    font-size: 18px;
+    padding: 10px 40px;
+    width: fit-content;
+  }
+}
+span {
+  color: blue;
+}
